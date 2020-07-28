@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sidebar</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1>Logo
+				<img src="images/PinClipart.com_princess-tea-party-clip_4238549.png">
+			</h1>
+		</div>
+
+		<nav id="navbar">
+			<ul>
+			  <li><a id="active" href="#" >Home</a></li>
+			  <li><a href="#">Tea's</a></li>
+			  <li><a href="#">About US</a></li>
+			  <li><a href="#">Contact Us</a></li>
+			 </ul>
+			 </nav>
+              <div id="bars">
+				  <i class="fas fa-bars fa-2x px-1 "></i>
+				</div>
+				
+		 <input id="search" type="text" value="search" >
+		 
+				 
+	</header>
+	  
+	<div class="content">
+  <h1>Live <span>chat support</span><br> for your customers</h1>
+  <p>Create custom landing pages with Shades that convert <br>more zzvisitors than any website—no coding required.</p>
+
+
+  <form>
+ <input type="text" placeholder="Enter Your Email address">
+ <input type="submit" value="Get Started">
+
+  </form>	
+	</div>
+<!-- end content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+  $("#bars").click(function(){
+    $("#navbar").slideToggle(500);
+  });
+});
+</script>
+</script>
+
+</body>
+</html>
